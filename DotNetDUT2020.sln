@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.29403.142
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetDUT2020", "DotNetDUT2020\DotNetDUT2020.csproj", "{89D99CD6-6A97-4CDE-BE1F-2A3CE6C3F9F9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCPServer", "ConsoleChatApp\TCPServer.csproj", "{B95FC99A-B338-42D1-98DE-DFDFE2BDD9E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCPClient", "TCPClient\TCPClient.csproj", "{81D95FAF-3F4F-4B3E-89EC-F753D30712A0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{89D99CD6-6A97-4CDE-BE1F-2A3CE6C3F9F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89D99CD6-6A97-4CDE-BE1F-2A3CE6C3F9F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89D99CD6-6A97-4CDE-BE1F-2A3CE6C3F9F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B95FC99A-B338-42D1-98DE-DFDFE2BDD9E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B95FC99A-B338-42D1-98DE-DFDFE2BDD9E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B95FC99A-B338-42D1-98DE-DFDFE2BDD9E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B95FC99A-B338-42D1-98DE-DFDFE2BDD9E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81D95FAF-3F4F-4B3E-89EC-F753D30712A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81D95FAF-3F4F-4B3E-89EC-F753D30712A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81D95FAF-3F4F-4B3E-89EC-F753D30712A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81D95FAF-3F4F-4B3E-89EC-F753D30712A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
